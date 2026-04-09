@@ -1,0 +1,67 @@
+# This jq module generates a simple IIIF manifest from a list of IIIF Image API
+# info.json documents.
+#
+# Usage:
+#   find . -name info.json | xargs jq > /tmp/manifest.json --indent 2 --slurp 'include "./gen-iiif-manifest"; manifest_for_info_json_docs'
+
+
+def manifest_for_info_json_docs:
+    {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": "http://e409429c-d521-4d03-8e77-578bd7b36305",
+        "@type": "sc:Manifest",
+        "label": "Image Test Manifest",
+        "metadata": [],
+        "description": [
+            {
+                "@value": "Auto-generated manifest from unknown info.json image definitions.",
+                "@language": "en"
+            }
+        ],
+        "sequences": [
+            {
+                "@id": "http://a95862e9-86ed-44b7-8d28-12ad0a54cb07",
+                "@type": "sc:Sequence",
+                "label": [
+                    {
+                        "@value": "Normal Sequence",
+                        "@language": "en"
+                    }
+                ],
+                "canvases": map(
+                    {
+                        "@id": "\(.["@id"])/canvasId",
+                        "@type": "sc:Canvas",
+                        "label": "Empty canvas",
+                        "width": .width,
+                        "height": .height,
+                        "images": [
+                            {
+                                "@context": "http://iiif.io/api/presentation/2/context.json",
+                                "@id": .["@id"],
+                                "@type": "oa:Annotation",
+                                "motivation": "sc:painting",
+                                "resource": {
+                                    "@id": "\(.["@id"])/full/full/0/default.jpg",
+                                    "@type": "dctypes:Image",
+                                    "format": "image/jpeg",
+                                    "service": {
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "@id": "\(.["@id"])",
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level0.json"
+                                        ]
+                                    },
+                                    "width": .width,
+                                    "height": .height,
+                                },
+                                "on": "\(.["@id"])/canvasId"
+                            }
+                        ],
+                        "related": ""
+                    }
+                )
+            }
+        ],
+        "structures": []
+    };
