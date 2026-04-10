@@ -1,0 +1,44 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/kj2dunkmitq-mnsy38zt",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Bedford manifest test"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/kj2dunkmitq-mnsy38zt/canvas/5bo7h3oxufr-mnt2hwha",
+      "type": "Canvas",
+      "height": 6200,
+      "width": 8822,
+      "label": {
+        "en": [
+          "An experiment with Bedford's first voyage "
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/kj2dunkmitq-mnsy38zt/canvas/5bo7h3oxufr-mnt2hwha/annotation-page/tz7415kt9co-mnt2hwha",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/kj2dunkmitq-mnsy38zt/annotation/0god6oz6ssdw-mnt2hqvj",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/kj2dunkmitq-mnsy38zt/canvas/5bo7h3oxufr-mnt2hwha",
+              "body": {
+                "id": "https://ia600800.us.archive.org/12/items/bedford-first-export-image/Bedford%20first%20export%20image.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 6200,
+                "width": 8822
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
