@@ -1,13 +1,13 @@
 {
   "@context": "https://iiif.io/api/presentation/3/context.json",
-  "id": "https://example.org/iiif/bedford/manifest.json",
+  "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/manifest.json",
   "type": "Manifest",
   "label": {
     "en": ["Bedford – First Export Image (Archive.org)"]
   },
   "items": [
     {
-      "id": "https://example.org/iiif/bedford/canvas/p1",
+      "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1",
       "type": "Canvas",
       "height": 6200,
       "width": 8822,
@@ -16,20 +16,20 @@
       },
       "items": [
         {
-          "id": "https://example.org/iiif/bedford/canvas/p1/annotation-page/1",
+          "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1/annotation-page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/bedford/annotation/p1-image",
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotation/p1-image",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/iiif/bedford/canvas/p1",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1",
               "body": {
                 "id": "https://ia600800.us.archive.org/12/items/bedford-first-export-image/Bedford%20first%20export%20image.png",
                 "type": "Image",
                 "format": "image/png",
                 "height": 6200,
-                "width": 8822"
+                "width": 8822
               }
             }
           ]
@@ -37,7 +37,7 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/bedford/annotations/points",
+          "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/points",
           "type": "AnnotationPage",
           "items": []
         }
