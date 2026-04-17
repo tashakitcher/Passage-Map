@@ -41,10 +41,10 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-a",
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-1",
               "type": "Annotation",
               "motivation": "commenting",
-              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=3995,2388,40,40",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=3995,2388.18,0,0",
               "body": {
                 "type": "TextualBody",
                 "value": "Point A – this is where the journey starts and ends",
@@ -52,10 +52,10 @@
               }
             },
             {
-              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-b",
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-2",
               "type": "Annotation",
               "motivation": "commenting",
-              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=3956,3742,40,40",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=3956,3741.68,0,0",
               "body": {
                 "type": "TextualBody",
                 "value": "Point B – mid point in journey",
@@ -63,21 +63,25 @@
               }
             },
             {
-              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-c",
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-3",
               "type": "Annotation",
               "motivation": "commenting",
-              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=4366,4065,40,40",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=4365.50,4065.18,0,0",
               "body": {
                 "type": "TextualBody",
-                "value": "Point C – another mid point in journey",
+                "value": "Point C – another mid point in journey ",
                 "format": "text/plain"
               }
             },
             {
-              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-d",
+          "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/points",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-1",
               "type": "Annotation",
               "motivation": "commenting",
-              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=4378,4255,40,40",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=4377.50,4254.68,0,0",
               "body": {
                 "type": "TextualBody",
                 "value": "Point D – another mid point...",
@@ -85,35 +89,47 @@
               }
             },
             {
-              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-e",
+          "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/points",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-1",
               "type": "Annotation",
               "motivation": "commenting",
-              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=2225,3513,40,40",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=2225,3513.18,0,0",
               "body": {
                 "type": "TextualBody",
-                "value": "Point E – we are in the Caribbean now",
+                "value": "Point E – we are in the Carribean now",
                 "format": "text/plain"
               }
             },
             {
-              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-f",
+          "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/points",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-1",
               "type": "Annotation",
               "motivation": "commenting",
-              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=2176,3569,40,40",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=2175.5,3568.68,0,0",
               "body": {
                 "type": "TextualBody",
-                "value": "Point F – some issues with border crossings in the Caribbean",
+                "value": "Point F – some issues with border crossings in the Carribean",
                 "format": "text/plain"
               }
             },
+                 {
+          "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/points",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-g",
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-1",
               "type": "Annotation",
               "motivation": "commenting",
-              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=1713,3373,40,40",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=1712.50,3373.18,0,0",
               "body": {
                 "type": "TextualBody",
-                "value": "Point G – last stop before the ship returned to England",
+                "value": "Point G – last stop before the Ship returned to England",
                 "format": "text/plain"
               }
             }
