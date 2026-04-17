@@ -80,7 +80,7 @@
               "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=1712,3368,0,0",
               "body": {
                 "type": "TextualBody",
-                "value": "Point D – last stop before the ship returns home ",
+                "value": "Point D – last stop before the ship returns to England ",
                 "format": "text/plain"
               }
             }
