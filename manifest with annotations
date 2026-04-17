@@ -1,0 +1,81 @@
+{
+  "@context": "https://iiif.io/api/presentation/3/context.json",
+  "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": ["Bedford – First Export Image (Archive.org)"]
+  },
+  "items": [
+    {
+      "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1",
+      "type": "Canvas",
+      "height": 6200,
+      "width": 8822,
+      "label": {
+        "en": ["Bedford – First Export Image"]
+      },
+      "items": [
+        {
+          "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1/annotation-page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotation/p1-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1",
+              "body": {
+                "id": "https://ia600800.us.archive.org/12/items/bedford-first-export-image/Bedford%20first%20export%20image.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 6200,
+                "width": 8822
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/points",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=2000,1500,50,50",
+              "body": {
+                "type": "TextualBody",
+                "value": "Point A – random test annotation",
+                "format": "text/plain"
+              }
+            },
+            {
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=4500,3000,50,50",
+              "body": {
+                "type": "TextualBody",
+                "value": "Point B – another test annotation",
+                "format": "text/plain"
+              }
+            },
+            {
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=7000,5000,50,50",
+              "body": {
+                "type": "TextualBody",
+                "value": "Point C – lower‑right test annotation",
+                "format": "text/plain"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
