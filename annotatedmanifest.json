@@ -44,10 +44,10 @@
               "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-1",
               "type": "Annotation",
               "motivation": "commenting",
-              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=2000,1500,50,50",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=3995,2388.18,0,0",
               "body": {
                 "type": "TextualBody",
-                "value": "Point A – random test annotation",
+                "value": "Point A – this is where the journey starts and ends",
                 "format": "text/plain"
               }
             },
@@ -55,10 +55,10 @@
               "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-2",
               "type": "Annotation",
               "motivation": "commenting",
-              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=4500,3000,50,50",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=3956,3741.68,0,0",
               "body": {
                 "type": "TextualBody",
-                "value": "Point B – another test annotation",
+                "value": "Point B – mid point in journey",
                 "format": "text/plain"
               }
             },
@@ -66,10 +66,10 @@
               "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-3",
               "type": "Annotation",
               "motivation": "commenting",
-              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=7000,5000,50,50",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=4365.50,4065.18,0,0",
               "body": {
                 "type": "TextualBody",
-                "value": "Point C – lower‑right test annotation",
+                "value": "Point C – another mid point in journey ",
                 "format": "text/plain"
               }
             }
