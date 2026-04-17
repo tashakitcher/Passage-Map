@@ -92,4 +92,34 @@
               "body": {
                 "type": "TextualBody",
                 "value": "Point E – we are in the Caribbean now",
-                "format": "text/plain
+                "format": "text/plain"
+              }
+            },
+            {
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-f",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=2176,3569,40,40",
+              "body": {
+                "type": "TextualBody",
+                "value": "Point F – some issues with border crossings in the Caribbean",
+                "format": "text/plain"
+              }
+            },
+            {
+              "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/point-g",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=1713,3373,40,40",
+              "body": {
+                "type": "TextualBody",
+                "value": "Point G – last stop before the ship returned to England",
+                "format": "text/plain"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
