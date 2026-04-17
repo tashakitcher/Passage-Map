@@ -35,7 +35,7 @@
           ]
         }
       ],
-     "annotations": [
+   "annotations": [
   {
     "id": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/annotations/points",
     "type": "AnnotationPage",
@@ -102,7 +102,7 @@
         "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=2176,3569,40,40",
         "body": {
           "type": "TextualBody",
-          "value": "Point F – issues with border crossings in the Caribbean",
+          "value": "Point F – some issues with border crossings in the Caribbean",
           "format": "text/plain"
         }
       },
@@ -113,7 +113,7 @@
         "target": "https://raw.githubusercontent.com/tashakitcher/Passage-Map/Bedford-voyage-1/canvas/p1#xywh=1713,3373,40,40",
         "body": {
           "type": "TextualBody",
-          "value": "Point G – last stop before returning to England",
+          "value": "Point G – last stop before the ship returned to England",
           "format": "text/plain"
         }
       }
