@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "https://passage.org/bedford/trial-1",
+  "type": "ImageService3",
+  "protocol": "http://iiif.io/api/image",
+  "profile": "level0",
+  "width": 8822,
+  "height": 4489,
+  "maxWidth": 8192,
+  "maxHeight": 4168,
+  "extraFormats": [],
+  "preferredFormats": [
+    "jpg"
+  ],
+  "sizes": [
+    {
+      "width": 512,
+      "height": 261
+    },
+    {
+      "width": 1024,
+      "height": 521
+    },
+    {
+      "width": 2048,
+      "height": 1042
+    },
+    {
+      "width": 4096,
+      "height": 2084
+    },
+    {
+      "width": 8192,
+      "height": 4168
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ]
+    }
+  ]
+}
